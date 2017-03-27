@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "iojs"
+deploy:
+  provider: npm
+  email: jurek@neugelb.com
+  api_key:
+    secure: "906e2aa6-015d-462b-a71b-b1d26b907f39"
+  on:
+    tags: true
+    all_branches: true
+    node: 'iojs'

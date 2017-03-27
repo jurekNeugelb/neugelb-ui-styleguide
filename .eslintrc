@@ -1,0 +1,9 @@
+{
+  "plugins": ["react"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": "eslint-config-airbnb"
+}
